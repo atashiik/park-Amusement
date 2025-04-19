@@ -26,6 +26,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -47,13 +48,13 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="ea33d573-1387-4cb9-aab0-ffe7fd17805d">
-    <name>Аттракцион</name>
+    <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
-      <value>Аттракцион</value>
+      <value>Вид аттракциона</value>
     </synonym>
     <type>
-      <types>CatalogRef.Аттракционы</types>
+      <types>CatalogRef.ВидыАттракционов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
