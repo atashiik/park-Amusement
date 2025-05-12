@@ -516,6 +516,10 @@
         <items xsi:type="form:FormField">
           <name>СписокНоменклатурыНоменклатура</name>
           <id>78</id>
+          <title>
+            <key>ru</key>
+            <value>Номенклатура</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

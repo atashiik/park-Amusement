@@ -18,6 +18,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шкалы бонусной программы</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -27,6 +31,23 @@
   <registerRecords>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ac0dfd81-5229-4fe4-ab77-ec9dcbc805b3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9797f64b-c2c3-4b8b-8eaa-26667327bc12">
     <producedTypes>
       <objectType typeId="8e7da29e-f1f1-425b-8c0c-bca6e34a9e64" valueTypeId="b2daed79-b8fa-4449-847a-6de50d06a5da"/>
